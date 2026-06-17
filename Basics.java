@@ -50,7 +50,35 @@ class Basics{
     public static void main(String args[]){
         System.out.println("hello world");
         //if using below line pass the arguments while manually compiling the file 
-        System.out.println(args[0]);//commandline arguments 
+        // System.out.println(args[0]);//commandline arguments 
+
+/**
+ * System is a class which deals with the methods of utility at runtime 
+ * 
+ * difference between
+ *  print--cursor stay  in same line 
+ * ptintln--cursor goes to new line 
+ * printf --we can pass the parameters 
+ */
+
+
+int a=5;
+int b=6;
+String c="sum";
+int d=a+b;
+System.out.println(c+a+b);//sum56
+System.out.println(c+(a+b));//sum11
+
+System.out.println("sum of "+a+"+"+ b+":"+d);
+//with printf we can write arguments neatly 
+
+
+//format specifier can be used 
+// % d, % f , %c, %b
+System.out.printf("sum of %d + %d is %d",a,b,d);
+
+
+
     }
 }
 
@@ -71,3 +99,5 @@ class Basics{
  * 
  * 
  */
+
+
