@@ -11,6 +11,7 @@ public class Recursion {
         // }
         // System.out.println("factorial of number" + number + " = is : " + fact);
         System.out.println(factorial(5));
+     System.out.println(sum(5));
     }
 
     int fact;
@@ -27,6 +28,15 @@ public class Recursion {
     //so the recursion is time and memory space 
 
 
+    // sum of n numbers
 
-    
+    public static int sum(int k){
+        if(k==1){
+            return k;
+        }
+        return k+=sum(k-1);
+    }
+
+
+
 }
