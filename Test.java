@@ -25,6 +25,9 @@ public class Test {
         Animal a = new Animal();
         a.voice();
 
+        boolean ans = is_prime(13);
+        System.out.print(ans);
+
     }
 
     // triple dot are used to take multiple parameters
@@ -43,11 +46,10 @@ public class Test {
                 count++;
             }
         }
-        return count==2;
+        return count == 2;
 
     }
-    boolean ans=is_prime(13);
-       System.out.println(ans);
+
 }
 
 // how to write a methos for a multiple number of parameters ..
