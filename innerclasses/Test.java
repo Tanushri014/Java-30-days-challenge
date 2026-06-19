@@ -44,6 +44,9 @@ hotel.reserveRoom("nya" ,4);
 
 }
 
+    public Test() {
+    }
+
 
 
 

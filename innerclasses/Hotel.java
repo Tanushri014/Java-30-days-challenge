@@ -33,6 +33,9 @@ public class Hotel {
                 }
                 return true;
             }
+
+            public ReservationValidator() {
+            }
         }
         ReservationValidator validator=new ReservationValidator();
     if(validator.validate()){

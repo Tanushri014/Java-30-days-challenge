@@ -8,11 +8,34 @@ public class Computer {
     public Os getOs(){
         return os;
     }
-//static class 
+public String getBrand() {
+        return brand;
+    }
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+    public String getModel() {
+        return model;
+    }
+    public void setModel(String model) {
+        this.model = model;
+    }
+    public void setOs(Os os) {
+        this.os = os;
+    }
+    //static class 
     static class USB{
     private String type;
 
     public USB(String type) {
+        this.type = type;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
         this.type = type;
     }
 
@@ -28,6 +51,12 @@ public class Computer {
         public Os(String osName) {
         this.osName = osName;
     }
+    public String getOsName() {
+            return osName;
+        }
+        public void setOsName(String osName) {
+            this.osName = osName;
+        }
     public void displayInfo(){
         System.out.println("display method ");
     }
