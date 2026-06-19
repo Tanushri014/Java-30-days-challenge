@@ -8,9 +8,14 @@ public class Computer {
     public Os getOs(){
         return os;
     }
-
+//static class 
     static class USB{
     private String type;
+
+    public USB(String type) {
+        this.type = type;
+    }
+
     }
     public Computer(String brand, String model,String osName) {
         this.brand = brand;
